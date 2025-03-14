@@ -9,8 +9,8 @@
           },
           "toolchains": [
           {
-            "repo": "https://gitlab.com/Jprimero15/lolz_clang.git",
-            "branch": "main",
+            "repo": "https://gitlab.com/yaosp/prebuilts_clang_host_linux-x86_clang-r475365b.git",
+            "branch": "master",
             "name": "tools",
             "binaryEnv": [
                 "bin"
