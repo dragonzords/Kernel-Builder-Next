@@ -275,9 +275,9 @@ jobs:
           # patch -p1 --forward < 10_enable_susfs_for_ksu.patch || true
 
           # Apply makefile for ksu to auto patch kernelSource
-          echo "Patch KSU makefile to auto patch kernelSource"
-          cp ../../kernel_patches/RKSU-Kernel-Add-auto-backport.patch ./RKSU-Kernel-Add-auto-backport.patch
-          patch -p1 --forward < RKSU-Kernel-Add-auto-backport.patch || true
+          # echo "Patch KSU makefile to auto patch kernelSource"
+          # cp ../../kernel_patches/RKSU-Kernel-Add-auto-backport.patch ./RKSU-Kernel-Add-auto-backport.patch
+          # patch -p1 --forward < RKSU-Kernel-Add-auto-backport.patch || true
 
           # Change to common directory and apply SUSFS patch
           cd ..
