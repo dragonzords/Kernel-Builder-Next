@@ -1,0 +1,30 @@
+{
+  "kernelSource": {
+    "name": "kernel_xiaomi_mt6785",
+    "repo": "https://github.com/dragonzords/kernel_xiaomi_mt6785.git",
+    "branch": "fifteen-fixed",
+    "device": "begonia",
+    "defconfig": "begonia_user_defconfig"
+  },
+  "withKernelSU": true ,
+  "toolchains": [
+    {
+      "repo": "https://github.com/kdrag0n/proton-clang",
+      "branch": "master",
+      "name": "proton-clang",
+      "binPath": ["bin"]
+    }
+  ],
+  "ccache": false,
+  "params": {
+    "ARCH": "arm64",
+    "CC": "proton-clang/bin/clang",
+    "externalCommands": {}
+  },
+  "AnyKernel3": {
+    "use": false,
+    "release": false,
+    "repo": "",
+    "branch": ""
+  }
+}
